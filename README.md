@@ -1,126 +1,114 @@
-# JS Portfolio Assignment
+# Portfolio
+A clean and simple porfolio webpage written in Javascript, HTML, CSS, and SCSS.
+
+## Techologies Used
+To get similar results, here are the tools and technologies that I used:
+
+   #### Programming
+    Javascript, HTML5, CSS3, SCSS 
+
+   #### Software
+    Visual Studio Code, Github
+
+   #### Operating Systems
+    Windows
+
+   #### Fonts + Images
+    Google Fonts, Font Awesome
+
+## How To Run
+Assuming that you have some experience with github repos...
+
+1. Before you run...
+- Install these extensions (if you haven't already!)
+    - Sass (current version: `v1.8.26`)
+    - Live Server (current version: `v5.7.9`)
+2. Running
+- Once you have cloned it and installed the above mentioned extensions, follow these simple steps:
+    - Open the folder in VSCode
+    - On the left-hand side, click on the file named: `index.html`
+    - Right-click anywhere in the `html` file and Select `Live Server` 
+
+         ***OR***
+
+    - Find the html file on the left-hand side, right-click it, and select `Open with Live Server`
+
+Live Server should create a new page on your browser, and you should be able to see and interact with my portfolio.
+
+Good job! You successfully did it!!!
 
 ---
+## Links
+Not yet deployed. See [How To Run](#how-to-run)
 
-This assignment combines the interpersonal and technical lecture modules. This portfolio page will contain their biographies, stories (Maybe in a blog format), resumes, descriptions of the assignments and assessments they completed, any previous projects they built, and professional images of themselves. The students should develop their own user stories and design the portfolio site themselves. Each student will present their portfolio pages along with their stories and experiences through FastTrack'D to the class.
+Want to see a Reactive version of this portfolio? Click this link ---> [React Portfolio](https://github.com/jasih/react-portfolio)
 
-## Goal
+Youtube Videos that helped me create this portfolio:
+   - [Portfolio Website Tutorial – Frontend Development with HTML, CSS, JavaScript](https://www.youtube.com/watch?v=xV7S8BhIeBo)
+   - [How To Make A Portfolio Website Using HTML CSS JS | Complete Responsive Website Design](https://www.youtube.com/watch?v=0YFrGy_mzjY)
+   - [GitHub Profile Search with Vanilla JavaScript and Fetch API | TechFerment](https://www.youtube.com/watch?v=0Kfwbays58g)
+   - [Fetch Data from the Github API with JavaScript/React](https://www.youtube.com/watch?v=aGiPMygfMM4)
 
----
+Other References
+   - [My dear friend, Tina](https://github.com/tmjohnson112341/FastTrack-Portfolio) 
 
-Students will create their own portfolio page/site and prepare a presentation in which they will cover their experiences at FastTrack'D, their story which they have developed throughout the course, and their technical abilities by using their portfolio sites to effectively guide and support their presentation. This will serve as a great resource for representing each student individually and their experience throughout the lecture modules of FastTrack'D.
+## What I Learned
+- Basic layout of a portfolio website
+- Basic implementations of HTML and CSS
+- Using SASS for clean and simple styling
+- Applying Javascript functions to create page transitions
+- Pulling Github API specific data and injecting them into my portfolio
+- How to create a good README.md documentation
 
-## Required Content
+## Screenshots
 
----
-- [ ] Resume present and available for download
-- [ ] Routing either between pages || single scrolling page (using anchors or a some type of navigation)
-- [ ] Working links to Github projects or deployed projects
-- [ ] About section. (Summary can be taken from your story mining).
-- [ ] At least (1) animation existing anywhere on the site (e.g.- sliders, button effects, loading spinner, etc...)
-- [ ] Github API specific data - Object structure below
-- [ ] ----------------------------
-- [ ] Profile picture present, pulled from Github via Github's API
-- [ ] Bio underneath profile picture, pulled from Github via Github's API
-- [ ] Hire-able status displayed, pulled from Github via Github's API
+### 1. Home
+(Need to fix styling on image)
 
+Highlighted Features:
+ - On *all* pages:
+   - Navigation bar on the right-hand side of the screen: buttons redirect to [Home](#1-home), [About Me](#2-about-me), [My Portfolio](#3-my-portfolio), and [Contact Me](#4-contact-me) pages (animations: on hover ---> background changes color + on click ---> each page does a small transition).
+   - Media queries for changing window size of the web page.
+   - Interactive button to `Download CV` (has *cool* animations: on hover ---> background changes color + does a short sliding transition).
+   ![image](https://github.com/jasih/portfolio/assets/57278438/ca73ab22-87b0-40fb-9405-d3b75a76d6a7)
 
-## Wireframe
+ - On *Home* page only:
+   - Data fetched from GitHub user's profile and displayed on the page: (`avatar_url` image, `bio`, and `hireable` status).
 
+![portfolio_home_page](https://github.com/jasih/portfolio/assets/57278438/b9b3adc5-68dd-4caf-b747-d0af0178f2c5)
 
-## Examples
-Below is a multi-page portfolio with both desktop and mobile views. The design is very minimal and relies on large areas of white-space.
+### 2. About Me
+- On *main title* pages:
+  - Titles have a faded "cross-over" effect/styling
+  ![image](https://github.com/jasih/portfolio/assets/57278438/e954b8a5-459e-4529-b642-c06deec722e3)
 
-<!-- ![multi-page](https://user-images.githubusercontent.com/12191780/161307224-b29bf3e0-e2a6-41c6-bda3-fb90398929f8.png) -->
+- On *About Me* page only:
+  - Displays some background information
+  - Displays small, clean, and simple infographics (also has *cool* animations: on hover ---> border changes color) 
+  ![image](https://github.com/jasih/portfolio/assets/57278438/fe0a88c3-9c65-459b-a480-9c6503146a5b)
 
-![home-page](https://user-images.githubusercontent.com/12191780/161307236-e749eb6d-83af-4ea7-a680-8f49ff5395b9.png)
+![portfolio_about_me](https://github.com/jasih/portfolio/assets/57278438/9053f60d-11c0-45cf-9d35-c3ca5174844b)
 
-The landing page for this site includes the about section as well as a download link for the resume and the profile picture.
+### 3. My Portfolio 
+(Needs to be updated)
 
-![work-page](https://user-images.githubusercontent.com/12191780/161307244-8285e756-3ead-4653-9579-5ea59800093d.png)
+- On *My Portfolio* page:
+  - Displays some of my work from [My GitHub Repos](https://github.com/jasih?tab=repositories)
+  - Displays a small, clean, and simple image of my work (has *cool* animations: on hover ---> background changes color and displays an icon link to that specific GitHub repo)
+  ![image](https://github.com/jasih/portfolio/assets/57278438/8378be60-6e3c-4ee8-87e3-6a099b3e600d)
 
-Clicking the title of each project will take you to the GitHub repository for the respective project, but you could also include a GitHub icon that links to the project if you prefer.
+![portfolio_my_work](https://github.com/jasih/portfolio/assets/57278438/be3caad1-300e-4f07-8c33-ced5758ae2dd)
 
-![contact-page](https://user-images.githubusercontent.com/12191780/161307252-3646cbb3-5a8e-4d3b-89eb-4ca840786cba.png)
+### 4. Contact Me
 
-The contact page is very basic and just sends an email to the portfolio owner.
+- On *Contact Me* page:
+ - Displays my contact information
+ - Displays small icons that redirect you to [My GitHub Profile](https://github.com/jasih) and [My LinkedIn Profile](https://www.linkedin.com/in/janet-sihapanya-b03102199/) (also has *cool* animations: on hover ---> background changes color)
 
+ ![image](https://github.com/jasih/portfolio/assets/57278438/8dc2a14e-9978-4018-822c-2799183dd3ff)
 
-Below is a single scrolling portfolio page with anchors in the navbar leading to different sections on the same page. Click on the image to explore the portfolio's wireframe in Figma.
+ - Functional `contact form`
 
-<a href="https://www.figma.com/proto/vE1T72gLqju5ITQ2jlSzfL/Portfolio-Wireframe?node-id=14%3A10&starting-point-node-id=14%3A10">
-<img width="1438" alt="Screen Shot 2022-03-29 at 4 24 34 PM" src="https://user-images.githubusercontent.com/32781877/160709821-1b2593c1-52e9-408d-9830-6a5a305e1791.png">
-</a>
+ ![image](https://github.com/jasih/portfolio/assets/57278438/8d192379-3231-4fd6-9744-96eb1115d8ba)
 
-
-Below is a wireframe (also known as a page schematic or screen blueprint) with sidebar navigation and a more grid layout for representing the user flow. Click on the "play" button at the top right within the Figma in order to explore the flow of the site.
-
-![wireframe-image](https://i.imgur.com/gN9wI5M.png)
-
-
-https://www.figma.com/file/VvzrwlF8oLbjqKXLh0w9Tj/Wireframes-for-Portfolios?node-id=0%3A1https://www.figma.com/file/VvzrwlF8oLbjqKXLh0w9Tj/Wireframes-for-Portfolios?node-id=0%3A1
-
-## The example object will be returned from Github's API
-###  https://api.github.com/users/chris-purnell 
----
-
-```json
-{
-   "login":"chris-purnell",
-   "id":74918205,
-   "node_id":"MDQ6VXNlcjc0OTE4MjA1",
-   "avatar_url":"https://avatars.githubusercontent.com/u/74918205?v=4",
-   "gravatar_id":"",
-   "url":"https://api.github.com/users/chris-purnell",
-   "html_url":"https://github.com/chris-purnell",
-   "followers_url":"https://api.github.com/users/chris-purnell/followers",
-   "following_url":"https://api.github.com/users/chris-purnell/following{/other_user}",
-   "gists_url":"https://api.github.com/users/chris-purnell/gists{/gist_id}",
-   "starred_url":"https://api.github.com/users/chris-purnell/starred{/owner}{/repo}",
-   "subscriptions_url":"https://api.github.com/users/chris-purnell/subscriptions",
-   "organizations_url":"https://api.github.com/users/chris-purnell/orgs",
-   "repos_url":"https://api.github.com/users/chris-purnell/repos",
-   "events_url":"https://api.github.com/users/chris-purnell/events{/privacy}",
-   "received_events_url":"https://api.github.com/users/chris-purnell/received_events",
-   "type":"User",
-   "site_admin":false,
-   "name":"Christopher Purnell",
-   "company":null,
-   "blog":"",
-   "location":"Memphis, TN",
-   "email":null,
-   "hireable":null,
-   "bio":"A wizard coder who casts powerful spells... but also wrong spells.",
-   "twitter_username":null,
-   "public_repos":7,
-   "public_gists":2,
-   "followers":0,
-   "following":1,
-   "created_at":"2020-11-23T14:49:26Z",
-   "updated_at":"2021-11-10T21:38:56Z",
-   "private_gists":1,
-   "total_private_repos":7,
-   "owned_private_repos":7,
-   "disk_usage":18632,
-   "collaborators":0,
-   "two_factor_authentication":false,
-   "plan":{
-      "name":"free",
-      "space":976562499,
-      "collaborators":0,
-      "private_repos":10000
-   }
-}
-```
-
-### The current values are to be pulled from the above response and injected into your portfolio.
-
-```json
-{
-    "avatar_url": "https://avatars.githubusercontent.com/u/74918205?v=4",
-    "is_hireable": null,
-    "bio": "A wizard coder who casts powerful spells... but also wrong spells.",
-}
-```
-*iF **is_hireable** is null like the example above, conditionally check this and add your own value such as "Hireable".*
-
+![portfolio_contact_me](https://github.com/jasih/portfolio/assets/57278438/67afa310-5961-479f-a9c4-b864db4f4639)
