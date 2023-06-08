@@ -1,11 +1,11 @@
 # Portfolio
-A clean and simple porfolio webpage written in Javascript, HTML, CSS, and SASS.
+A clean and simple porfolio webpage written in Javascript, HTML, CSS, and SCSS.
 
 ## Techologies Used
 To get similar results, here are the tools and technologies that I used:
  
    #### Programming
-    Javascript, HTML5, CSS3, SASS 
+    Javascript, HTML5, CSS3, SCSS 
 
    #### Software
     Visual Studio Code, Github
