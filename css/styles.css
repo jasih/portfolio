@@ -85,16 +85,7 @@ section {
 
 .active {
   display: block;
-  -webkit-animation: scaleAnim 1s ease-in-out;
-          animation: scaleAnim 1s ease-in-out;
-}
-@-webkit-keyframes scaleAnim {
-  0% {
-    transform: translateY(-100%) scaleY(0);
-  }
-  100% {
-    transform: translateY(0) scaleY(1);
-  }
+  animation: scaleAnim 1s ease-in-out;
 }
 @keyframes scaleAnim {
   0% {
@@ -187,6 +178,12 @@ section {
   font-size: 3rem;
 }
 .header-content .right-header .name span {
+  color: var(--color-secondary);
+}
+.header-content .right-header .bio {
+  font-size: 1rem;
+}
+.header-content .right-header .bio span {
   color: var(--color-secondary);
 }
 .header-content .right-header p {

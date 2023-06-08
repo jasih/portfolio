@@ -3,6 +3,24 @@ const sectionBtns = document.querySelectorAll('.controls');
 const sectionBtn = document.querySelectorAll('.control');
 const allSections = document.querySelector('.main-content');
 
+// function getDetails() {
+//     let avatar = document.getElementById('avatar') 
+//     let bio = document.getElementById('bio')
+//     let hireable = document.getElementById('hireable')
+
+//     fetch('https://api.github.com/users/jasih')
+//     .then((response) => response.json())
+//     .then((data) => {
+//         console.log(data)
+//         avatar.src = data.avatar_url
+//         bio.innerHTML = data.bio
+//         hireable.innerHTML = 'Hireable: ' + data.hireable
+//     })
+// }
+
+// getDetails();
+
+
 function getAvatar() {
     let photo = document.getElementById('avatar')
 
@@ -15,25 +33,27 @@ function getAvatar() {
 
 getAvatar();
 
+
 function getBio() {
-    let description = document.getElementById('bio')
+    let bio = document.getElementById('bio')
 
     let url = 'https://api.github.com/users/jasih'
     fetch(url).then(res=>res.json()).then(data=>{
         console.log(data)
-        description.src = data.bio
+        bio.innerHTML = data.bio
     })  
 }
 
 getBio();
 
+
 function getHireable() {
-    let isHired = document.getElementById('bio')
+    let hireable = document.getElementById('hireable')
 
     let url = 'https://api.github.com/users/jasih'
     fetch(url).then(res=>res.json()).then(data=>{
         console.log(data)
-        isHired.src = data.hireable
+        hireable.innerHTML = 'Hireable: ' + data.hireable
     })  
 }
 
