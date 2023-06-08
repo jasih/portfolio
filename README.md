@@ -33,7 +33,7 @@ Assuming that you have some experience with github repos...
     
     - Find the html file on the left-hand side, right-click it, and select `Open with Live Server`
  
-Live server should create a new page on your browser, and you should be able to see and interact with my portfolio.
+Live Server should create a new page on your browser, and you should be able to see and interact with my portfolio.
       
 Good job! You successfully did it!!!
 
