@@ -50,7 +50,8 @@ Youtube Videos that helped me create this portfolio:
    - [Fetch Data from the Github API with JavaScript/React](https://www.youtube.com/watch?v=aGiPMygfMM4)
 
 Other References
-   - [My dear friend, Tina](https://github.com/tmjohnson112341/FastTrack-Portfolio) 
+   - [My dear friend, Tina](https://github.com/tmjohnson112341/FastTrack-Portfolio)
+   - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) ---> What I used to help with Markdown syntax
 
 ## What I Learned
 - Basic layout of a portfolio website
